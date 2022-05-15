@@ -1,0 +1,161 @@
+svg {
+  width: 45%;
+  height: auto;
+}
+body {
+  background: #1d1f1f;
+}
+.g1 {
+  animation-duration: 8s;
+  animation-name: rebote;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.g3 {
+  animation-duration: 7s;
+  animation-delay: 1s;
+  animation-name: rebote;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.g7 {
+  animation-duration: 7s;
+  animation-delay: 2s;
+  animation-name: rebote;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.g8 {
+  animation-duration: 7s;
+  animation-delay: 3s;
+  animation-name: rebote;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.g9 {
+  animation-duration: 7s;
+  animation-delay: 4s;
+  animation-name: rebote;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.g2 {
+  animation-duration: 7s;
+  animation-delay: 5s;
+  animation-name: rebote;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.g4 {
+  animation-duration: 7s;
+  animation-delay: 6s;
+  animation-name: rebote;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.g5 {
+  animation-duration: 7s;
+  animation-delay: 7s;
+  animation-name: rebote;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.g6 {
+  animation-duration: 7s;
+  animation-delay: 8s;
+  animation-name: rebote;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@-moz-keyframes slidein {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(0px, 20px);
+  }
+}
+@-webkit-keyframes slidein {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(0px, 20px);
+  }
+}
+@-o-keyframes slidein {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(0px, 20px);
+  }
+}
+@keyframes slidein {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(0px, 20px);
+  }
+}
+@-moz-keyframes rebote {
+  0% {
+    transform: rotate(-120deg);
+    visibility: visible;
+  }
+  10%, 50% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    visibility: visible;
+  }
+}
+@-webkit-keyframes rebote {
+  0% {
+    transform: rotate(-120deg);
+    visibility: visible;
+  }
+  10%, 50% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    visibility: visible;
+  }
+}
+@-o-keyframes rebote {
+  0% {
+    transform: rotate(-120deg);
+    visibility: visible;
+  }
+  10%, 50% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    visibility: visible;
+  }
+}
+@keyframes rebote {
+  0% {
+    transform: rotate(-120deg);
+    visibility: visible;
+  }
+  10%, 50% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    visibility: visible;
+  }
+}
